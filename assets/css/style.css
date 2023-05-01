@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    background-color: white;
+}
+#mainContainer{
+    width: 90%;
+    margin: 2rem auto 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px lightseagreen  ;
+    margin:  auto;
+}
+.card .card-title{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ #nav-buttons{
+    width: 75%;
+    margin: 0 auto;
+ }
+ .loader{
+    margin: 0 auto;
+ }
+ .error{
+    margin: 0 auto;
+    font-size: 3rem;
+    color: red;
+ }
